@@ -30,24 +30,27 @@ namespace AutoUpdaterV3
             Console.WriteLine("________________________________________________________________________________________________________________________");
             if (File.Exists("AttacherV3.exe"))
             {
-                Console.WriteLine("[>] Deleted AttacherV3.exe");
                 File.Delete("AttacherV3.exe");
-                Thread.Sleep(96);
             }
             if (File.Exists("3NIGMA.exe"))
             {
-                Console.WriteLine("[>] Deleted 3NIGMA.exe");
                 File.Delete("3NIGMA.exe");
-                Thread.Sleep(96);
 
             }
             if (File.Exists("EasyExploits.dll"))
             {
-                Console.WriteLine("[>] Deleted EasyExploits.dll.exe");
                 File.Delete("EasyExploits.dll");
-                Thread.Sleep(96);
 
             }
+            if (File.Exists("Guna.UI2.dll"))
+            {
+                File.Delete("Guna.UI2.dll");
+            }
+            if (File.Exists("FastColoredTextBox.dll"))
+            {
+                File.Delete("FastColoredTextBox.dll");
+            }
+            if (File.Exists("Newtonsoft.Json.dll")) File.Delete("Newtonsoft.Json.dll");
             Console.WriteLine("[>] Done");
 
             Console.Clear();
@@ -70,8 +73,14 @@ namespace AutoUpdaterV3
             Console.WriteLine("[>] Downloading 3NIGMA.exe");
             wc.DownloadFile("https://github.com/chefkochh/3NIGMA/raw/master/Cool/bin/Debug/bin/3NIGMA.exe", "3NIGMA.exe");
             Console.WriteLine("[>] Downloading EasyExploits.dll");
-            wc.DownloadFile("https://github.com/chefkochh/3NIGMA/raw/master/Cool/bin/Debug/bin/EasyExploits.dll", "EasyExploits.dll");
-            Console.WriteLine("[>] Done");
+            wc.DownloadFile("https://github.com/chefkochh/3NIGMA/raw/master/Cool/bin/Debug/bin/EasyExploits.dll", "EasyExploitsDLL.dll");
+            Console.WriteLine("[>] Downloading Guna.UI2.dll");
+            wc.DownloadFile("https://github.com/chefkochh/3NIGMA/blob/master/Cool/bin/Debug/bin/Guna.UI2.dll", "Guna.UI2.dll");
+            Console.WriteLine("[>] Downloading FastColoredTextBox.dll");
+            wc.DownloadFile("https://github.com/chefkochh/3NIGMA/raw/master/Cool/bin/Debug/bin/FastColoredTextBox.dll", "FastColoredTextBox.dll");
+            Console.WriteLine("[>] Downloading Newtonsoft.Json.dll");
+            wc.DownloadFile("https://github.com/chefkochh/3NIGMA/raw/master/Cool/bin/Debug/bin/Newtonsoft.Json.dll", "Newtonsoft.Json.dll");
+            Console.WriteLine("[>] Done");  
             Console.ReadLine();
             Process.Start("3NIGMA.exe");
             Environment.Exit(0);

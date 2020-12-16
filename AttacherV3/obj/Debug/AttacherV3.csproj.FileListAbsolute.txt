@@ -14,5 +14,4 @@ C:\Users\simon\Desktop\3NIGMA\Cool\bin\Debug\bin\AttacherV3.pdb
 C:\Users\simon\Desktop\3NIGMA\AttacherV3\obj\Debug\AttacherV3.csproj.CoreCompileInputs.cache
 C:\Users\simon\Desktop\3NIGMA\AttacherV3\obj\Debug\AttacherV3.exe
 C:\Users\simon\Desktop\3NIGMA\AttacherV3\obj\Debug\AttacherV3.pdb
-C:\Users\simon\Desktop\3NIGMA\AttacherV3\obj\Debug\AttacherV3.csprojAssemblyReference.cache
 C:\Users\simon\Desktop\3NIGMA\AttacherV3\obj\Debug\AttacherV3.csproj.CopyComplete

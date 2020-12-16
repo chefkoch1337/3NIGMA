@@ -10,4 +10,3 @@ C:\Users\simon\Desktop\3NIGMA\AutoUpdaterV3\obj\Debug\AutoUpdaterV3.pdb
 C:\Users\simon\Desktop\3NIGMA\Cool\bin\Debug\bin\AutoUpdaterV3.exe.config
 C:\Users\simon\Desktop\3NIGMA\Cool\bin\Debug\bin\AutoUpdaterV3.exe
 C:\Users\simon\Desktop\3NIGMA\Cool\bin\Debug\bin\AutoUpdaterV3.pdb
-C:\Users\simon\Desktop\3NIGMA\AutoUpdaterV3\obj\Debug\AutoUpdaterV3.csprojAssemblyReference.cache

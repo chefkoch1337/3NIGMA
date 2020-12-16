@@ -122,7 +122,7 @@ namespace Cool
         private void button6_Click(object sender, EventArgs e)
         {
                 string path = Environment.CurrentDirectory;
-                Process.Start("" + path + @"\bin" + @"\Attacher V2.exe");
+                Process.Start("AttacherV3.exe");
          
         }
     }

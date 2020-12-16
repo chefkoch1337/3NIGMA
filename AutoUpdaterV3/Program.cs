@@ -10,6 +10,7 @@ namespace AutoUpdaterV3
 {
     class Program
     {
+        public static WebClient wc = new WebClient();
         static void Main(string[] args)
         {
             Console.ForegroundColor = ConsoleColor.DarkBlue;
@@ -57,7 +58,9 @@ namespace AutoUpdaterV3
             Console.WriteLine("   [+] Downloading new Files");
             Console.WriteLine("________________________________________________________________________________________________________________________");
 
-
+            Console.WriteLine("[>] Downloading AttacherV3.exe");
+            wc.DownloadFile("https://github.com/chefkochh/3NIGMA/raw/master/Cool/bin/Debug/bin/AttacherV3.exe", "AttacherV3.exe");
+            Console.WriteLine("[>] Downloading 3NIGMA.exe");
 
             Console.ReadLine();
         }

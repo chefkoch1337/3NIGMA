@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{1F449C6F-9E9B-41F1-873D-9DDA1E1F34D3}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Cool</RootNamespace>
-    <AssemblyName>Cool</AssemblyName>
+    <RootNamespace>enigma</RootNamespace>
+    <AssemblyName>3NIGMA</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

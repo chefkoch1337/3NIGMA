@@ -145,7 +145,7 @@ namespace Cool
             this.guna2ImageButton2.CheckedState.Parent = this.guna2ImageButton2;
             this.guna2ImageButton2.HoverState.ImageSize = new System.Drawing.Size(30, 30);
             this.guna2ImageButton2.HoverState.Parent = this.guna2ImageButton2;
-            this.guna2ImageButton2.Image = global::Cool.Properties.Resources.external_content_duckduckgo;
+            this.guna2ImageButton2.Image = global::enigma.Properties.Resources.external_content_duckduckgo;
             this.guna2ImageButton2.ImageRotate = 0F;
             this.guna2ImageButton2.ImageSize = new System.Drawing.Size(28, 28);
             this.guna2ImageButton2.Location = new System.Drawing.Point(0, 56);
@@ -163,7 +163,7 @@ namespace Cool
             this.guna2ImageButton1.CheckedState.Parent = this.guna2ImageButton1;
             this.guna2ImageButton1.HoverState.ImageSize = new System.Drawing.Size(32, 32);
             this.guna2ImageButton1.HoverState.Parent = this.guna2ImageButton1;
-            this.guna2ImageButton1.Image = global::Cool.Properties.Resources.unnamed;
+            this.guna2ImageButton1.Image = global::enigma.Properties.Resources.unnamed;
             this.guna2ImageButton1.ImageRotate = 0F;
             this.guna2ImageButton1.ImageSize = new System.Drawing.Size(30, 30);
             this.guna2ImageButton1.Location = new System.Drawing.Point(0, 0);

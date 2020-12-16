@@ -12,17 +12,16 @@ C:\Users\simon\Documents\MEGAsync\coding bin\Repos\3nigma\Cool\Cool\obj\Debug\3N
 C:\Users\simon\Documents\MEGAsync\coding bin\Repos\3nigma\Cool\Cool\obj\Debug\3NIGMA.csproj.CopyComplete
 C:\Users\simon\Documents\MEGAsync\coding bin\Repos\3nigma\Cool\Cool\obj\Debug\Cool.exe
 C:\Users\simon\Documents\MEGAsync\coding bin\Repos\3nigma\Cool\Cool\obj\Debug\Cool.pdb
-C:\Users\simon\Desktop\3NIGMA\Cool\obj\Debug\3NIGMA.csprojAssemblyReference.cache
 C:\Users\simon\Desktop\3NIGMA\Cool\obj\Debug\Cool.Form1.resources
-C:\Users\simon\Desktop\3NIGMA\Cool\obj\Debug\Cool.Properties.Resources.resources
 C:\Users\simon\Desktop\3NIGMA\Cool\obj\Debug\Cool.Scripts.resources
 C:\Users\simon\Desktop\3NIGMA\Cool\obj\Debug\3NIGMA.csproj.GenerateResource.cache
-C:\Users\simon\Desktop\3NIGMA\Cool\obj\Debug\Cool.exe
-C:\Users\simon\Desktop\3NIGMA\Cool\obj\Debug\Cool.pdb
-C:\Users\simon\Desktop\3NIGMA\Cool\bin\Debug\bin\Cool.exe.config
-C:\Users\simon\Desktop\3NIGMA\Cool\bin\Debug\bin\Cool.exe
-C:\Users\simon\Desktop\3NIGMA\Cool\bin\Debug\bin\Cool.pdb
 C:\Users\simon\Desktop\3NIGMA\Cool\bin\Debug\bin\Guna.UI2.dll
 C:\Users\simon\Desktop\3NIGMA\Cool\obj\Debug\Cool.Executor.resources
 C:\Users\simon\Desktop\3NIGMA\Cool\obj\Debug\3NIGMA.csproj.CoreCompileInputs.cache
 C:\Users\simon\Desktop\3NIGMA\Cool\obj\Debug\3NIGMA.csproj.CopyComplete
+C:\Users\simon\Desktop\3NIGMA\Cool\obj\Debug\enigma.Properties.Resources.resources
+C:\Users\simon\Desktop\3NIGMA\Cool\bin\Debug\bin\3NIGMA.exe.config
+C:\Users\simon\Desktop\3NIGMA\Cool\bin\Debug\bin\3NIGMA.exe
+C:\Users\simon\Desktop\3NIGMA\Cool\bin\Debug\bin\3NIGMA.pdb
+C:\Users\simon\Desktop\3NIGMA\Cool\obj\Debug\3NIGMA.exe
+C:\Users\simon\Desktop\3NIGMA\Cool\obj\Debug\3NIGMA.pdb

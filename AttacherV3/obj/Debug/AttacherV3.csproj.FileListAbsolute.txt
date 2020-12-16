@@ -1,0 +1,10 @@
+C:\Users\simon\Documents\MEGAsync\coding bin\Repos\3nigma\Cool\AttacherV3\bin\Debug\AttacherV3.exe.config
+C:\Users\simon\Documents\MEGAsync\coding bin\Repos\3nigma\Cool\AttacherV3\bin\Debug\AttacherV3.exe
+C:\Users\simon\Documents\MEGAsync\coding bin\Repos\3nigma\Cool\AttacherV3\bin\Debug\AttacherV3.pdb
+C:\Users\simon\Documents\MEGAsync\coding bin\Repos\3nigma\Cool\AttacherV3\obj\Debug\AttacherV3.csprojAssemblyReference.cache
+C:\Users\simon\Documents\MEGAsync\coding bin\Repos\3nigma\Cool\AttacherV3\obj\Debug\AttacherV3.csproj.CoreCompileInputs.cache
+C:\Users\simon\Documents\MEGAsync\coding bin\Repos\3nigma\Cool\AttacherV3\obj\Debug\AttacherV3.exe
+C:\Users\simon\Documents\MEGAsync\coding bin\Repos\3nigma\Cool\AttacherV3\obj\Debug\AttacherV3.pdb
+C:\Users\simon\Documents\MEGAsync\coding bin\Repos\3nigma\Cool\Cool\bin\Debug\AttacherV3.exe.config
+C:\Users\simon\Documents\MEGAsync\coding bin\Repos\3nigma\Cool\Cool\bin\Debug\AttacherV3.exe
+C:\Users\simon\Documents\MEGAsync\coding bin\Repos\3nigma\Cool\Cool\bin\Debug\AttacherV3.pdb

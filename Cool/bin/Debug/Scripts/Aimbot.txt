@@ -1,0 +1,260 @@
+-- Hold E when you shoot to automatically aimbot and the ESP is still a work in progress --
+local Headshot_Key = Enum.KeyCode.E
+local Torsoshot_Key = Enum.KeyCode.K
+
+local plr = game.Players.LocalPlayer
+local Gui = Instance.new("ScreenGui",game.CoreGui)
+Gui.Name = "AimbotGui"
+local version = "1.0.1"
+
+HDown = false
+TDown = false
+mouse = game.Players.LocalPlayer:GetMouse()
+cam = game.Workspace.CurrentCamera
+Players = game:service("Players")
+
+function onKeyPress(inputObject, gameProcessedEvent)
+	if inputObject.KeyCode == Headshot_Key then
+		if HDown == false and TDown == false then
+			HDown = true
+			print("[AIMBOT] Calculating closest player")
+			local targetpoint = mouse.Hit
+			local p = game.Players:GetChildren()
+			local lowestdist = 99999999999
+			local lowestplayer = nil
+			for i=1,#p do
+				if p[i]~=game.Players.LocalPlayer and p[i].Character~=nil and p[i].Character~=nil and p[i].TeamColor~=game.Players.LocalPlayer.TeamColor and p[i].Character.Humanoid.Health >0 and p[i].TeamColor~=BrickColor.new("White") then
+					local dist = p[i]:DistanceFromCharacter(Vector3.new(targetpoint.X,targetpoint.Y,targetpoint.Z))
+					if dist < lowestdist then
+						lowestdist = dist
+						lowestplayer = p[i]
+					end
+				end
+			end
+			if lowestplayer~=nil then
+				print("[AIMBOT] Targeting "..lowestplayer.Name)
+				while HDown do
+					wait()
+					local TPos = lowestplayer.Character.Head.Position
+					cam.CFrame = CFrame.new(Vector3.new(cam.CFrame.X,cam.CFrame.Y,cam.CFrame.Z),Vector3.new(TPos.X,TPos.Y,TPos.Z))
+				end
+			end
+		end
+	elseif inputObject.KeyCode == Torsoshot_Key then
+		if TDown == false and HDown == false then
+			TDown = true
+			print("[AIMBOT] Calculating closest player")
+			local targetpoint = mouse.Hit
+			local p = game.Players:GetChildren()
+			local lowestdist = 99999999999
+			local lowestplayer = nil
+			for i=1,#p do
+				if p[i]~=game.Players.LocalPlayer and p[i].Character~=nil and p[i].Character~=nil and p[i].TeamColor~=game.Players.LocalPlayer.TeamColor and p[i].Character.Humanoid.Health >0 and p[i].TeamColor~=BrickColor.new("White") then
+					local dist = p[i]:DistanceFromCharacter(Vector3.new(targetpoint.X,targetpoint.Y,targetpoint.Z))
+					if dist < lowestdist then
+						lowestdist = dist
+						lowestplayer = p[i]
+					end
+				end
+			end
+			if lowestplayer~=nil then
+				print("[AIMBOT] Targeting "..lowestplayer.Name)
+				while TDown do
+					wait()
+					local TPos = lowestplayer.Character.Torso.Position
+					cam.CFrame = CFrame.new(Vector3.new(cam.CFrame.X,cam.CFrame.Y,cam.CFrame.Z),Vector3.new(TPos.X,TPos.Y,TPos.Z))
+				end
+			end
+		end
+	end
+end
+
+function onKeyRelease(inputObject, gameProcessedEvent)
+	if inputObject.KeyCode == Headshot_Key then
+		HDown = false
+	elseif inputObject.KeyCode == Torsoshot_Key then
+		TDown = false
+	end
+end
+
+function Esp(player, username)
+    if player ~= Players.LocalPlayer and player.Character then
+    local torso = player.Character:FindFirstChild("Torso")
+    if torso then
+    local base = Instance.new("BillboardGui", workspace.CurrentCamera)
+    local esP = Instance.new("Frame", base)
+    base.AlwaysOnTop = true
+    base.Enabled = true
+    base.Size = UDim2.new(3.5,0,4.7,0)
+    base.Name = username
+    base.Adornee = torso
+    base.StudsOffset = Vector3.new(0, -0.6, 0)
+    esP.BackgroundColor3 = Color3.new(1,0,0)
+    esP.BackgroundTransparency = 0.8
+    esP.BorderColor3 = Color3.new(0,0,0)
+    esP.BorderSizePixel = 1
+    esP.Size = UDim2.new(1,0,1,0)
+    end
+    end
+end
+
+function CheckEsp()
+    for x,player in pairs(Players:GetChildren()) do
+	    if player then
+	        if player.TeamColor ~= plr.TeamColor then
+		        local char = player.Character
+		        if char then
+		            local torso = char:FindFirstChild("Torso")
+		            if torso then
+		                local currentcam = workspace.CurrentCamera
+		                local playerName = player.Name
+		                if currentcam:FindFirstChild(playerName) == nil then
+		                    Esp(player, playerName)
+		                end
+		            end
+		        end
+	        end
+	    end
+    end
+end
+
+local function createframe(bkgc3,bkgtrans,borderc3, bordersize, name, parent, pos, rot, size, visible, zindex)
+	local newframe = Instance.new("Frame")
+	newframe.BackgroundColor3 = bkgc3
+	newframe.BackgroundTransparency = bkgtrans
+	newframe.BorderColor3 = borderc3
+	newframe.BorderSizePixel = bordersize
+	newframe.Name = name
+	newframe.Parent = parent
+	newframe.Position = pos
+	newframe.Rotation = rot
+	newframe.Size = size
+	newframe.Visible = visible
+	newframe.ZIndex = zindex
+	return newframe
+end
+
+local function createlabel(bkgc3,bkgtrans,borderc3, bordersize, name, parent, pos, rot, size, visible, zindex, font, fontsize, text, textc3, textscaled, textstrokec3, textstroketrans, texttrans, textwrapped, xalign, yalign)
+	local newlabel = Instance.new("TextLabel")
+	newlabel.BackgroundColor3 = bkgc3
+	newlabel.BackgroundTransparency = bkgtrans
+	newlabel.BorderColor3 = borderc3
+	newlabel.BorderSizePixel = bordersize
+	newlabel.Name = name
+	newlabel.Parent = parent
+	newlabel.Position = pos
+	newlabel.Rotation = rot
+	newlabel.Size = size
+	newlabel.Visible = visible
+	newlabel.ZIndex = zindex
+	newlabel.Font = font
+	newlabel.FontSize = fontsize
+	newlabel.Text = text
+	newlabel.TextColor3 = textc3
+	newlabel.TextScaled = textscaled
+	newlabel.TextStrokeColor3 = textstrokec3
+	newlabel.TextStrokeTransparency = textstroketrans
+	newlabel.TextTransparency = texttrans
+	newlabel.TextWrapped = textwrapped
+	newlabel.TextXAlignment = xalign
+	newlabel.TextYAlignment = yalign
+	return newlabel
+end
+
+local function createbutton(autocolor, bkgc3,bkgtrans,borderc3, bordersize, name, parent, pos, rot, size, visible, zindex, font, fontsize, text, textc3, textscaled, textstrokec3, textstroketrans, texttrans, textwrapped, xalign, yalign)
+	local newbutton = Instance.new("TextButton")
+	newbutton.AutoButtonColor = autocolor
+	newbutton.BackgroundColor3 = bkgc3
+	newbutton.BackgroundTransparency = bkgtrans
+	newbutton.BorderColor3 = borderc3
+	newbutton.BorderSizePixel = bordersize
+	newbutton.Name = name
+	newbutton.Parent = parent
+	newbutton.Position = pos
+	newbutton.Rotation = rot
+	newbutton.Size = size
+	newbutton.Visible = visible
+	newbutton.ZIndex = zindex
+	newbutton.Font = font
+	newbutton.FontSize = fontsize
+	newbutton.Text = text
+	newbutton.TextColor3 = textc3
+	newbutton.TextScaled = textscaled
+	newbutton.TextStrokeColor3 = textstrokec3
+	newbutton.TextStrokeTransparency = textstroketrans
+	newbutton.TextTransparency = texttrans
+	newbutton.TextWrapped = textwrapped
+	newbutton.TextXAlignment = xalign
+	newbutton.TextYAlignment = yalign
+	return newbutton
+end
+
+local function createtextbox(bkgc3,bkgtrans,borderc3, bordersize, clrtext, multiline, name, parent, pos, rot, size, visible, zindex, font, fontsize, text, textc3, textscaled, textstrokec3, textstroketrans, texttrans, textwrapped, xalign, yalign)
+	local newbox = Instance.new("TextBox")
+	newbox.BackgroundColor3 = bkgc3
+	newbox.BackgroundTransparency = bkgtrans
+	newbox.BorderColor3 = borderc3
+	newbox.BorderSizePixel = bordersize
+	newbox.ClearTextOnFocus = clrtext
+	newbox.MultiLine = multiline
+	newbox.Name = name
+	newbox.Parent = parent
+	newbox.Position = pos
+	newbox.Rotation = rot
+	newbox.Size = size
+	newbox.Visible = visible
+	newbox.ZIndex = zindex
+	newbox.Font = font
+	newbox.FontSize = fontsize
+	newbox.Text = text
+	newbox.TextColor3 = textc3
+	newbox.TextScaled = textscaled
+	newbox.TextStrokeColor3 = textstrokec3
+	newbox.TextStrokeTransparency = textstroketrans
+	newbox.TextTransparency = texttrans
+	newbox.TextWrapped = textwrapped
+	newbox.TextXAlignment = xalign
+	newbox.TextYAlignment = yalign
+	return newbox
+end
+
+local function createimagelabel(bkgc3,bkgtrans,borderc3, bordersize, name, parent, pos, rot, size, visible, zindex, image, imagetrans)
+	local newimage = Instance.new("ImageLabel")
+	newimage.BackgroundColor3 = bkgc3
+	newimage.BackgroundTransparency = bkgtrans
+	newimage.BorderColor3 = borderc3
+	newimage.BorderSizePixel = bordersize
+	newimage.Name = name
+	newimage.Parent = parent
+	newimage.Position = pos
+	newimage.Rotation = rot
+	newimage.Size = size
+	newimage.Visible = visible
+	newimage.ZIndex = zindex
+	newimage.Image = "rbxassetid://"..image
+	newimage.ImageTransparency = imagetrans
+	return newimage
+end
+
+-------------------------------INITIALIZE INTRO GUI-------------------------------------
+local IntroFrame = createframe(Color3.new(245/255,245/255,245/255),0,Color3.new(27/255,42/255,53/255),0,"IntroFrame",Gui,UDim2.new(0,-330,0,0),0,UDim2.new(0,300,1,0),true,1)
+--[[bar]] createframe(Color3.new(245/255,245/255,245/255),0,Color3.new(0,0,0),0,"bar",IntroFrame,UDim2.new(1,0,0,0),0,UDim2.new(0,30,0,90),true,1)
+--[[slant]] createimagelabel(Color3.new(1,1,1),1,Color3.new(0,0,0),0,"Slant",IntroFrame,UDim2.new(1,0,0,90),90,UDim2.new(0,30,0,30),true,1,474172996,0)
+--[[creator]] createlabel(Color3.new(1,1,1),1,Color3.new(0,0,0),0,"Creator",IntroFrame,UDim2.new(0,80,1,-40),0,UDim2.new(0,140,0,30),true,1,Enum.Font.Code,Enum.FontSize.Size28,"Symplicity",Color3.new(27/255,42/255,53/255), false,Color3.new(0,0,0),1,0,true,Enum.TextXAlignment.Center,Enum.TextYAlignment.Center)
+--[[creatorlabel]] createlabel(Color3.new(1,1,1),1,Color3.new(0,0,0),0,"CreatorLabel",IntroFrame,UDim2.new(0,80,1,-70),0,UDim2.new(0,140,0,30),true,1,Enum.Font.Code,Enum.FontSize.Size18,"Made by:",Color3.new(27/255,42/255,53/255), false,Color3.new(0,0,0),1,0,true,Enum.TextXAlignment.Center,Enum.TextYAlignment.Center)
+--[[desc]] createlabel(Color3.new(1,1,1),1,Color3.new(0,0,0),0,"Desc",IntroFrame,UDim2.new(0,0,0,120),0,UDim2.new(1,0,0,90),true,1,Enum.Font.SourceSansLight,Enum.FontSize.Size14,"Feel free to share, just give me creds :) The ESP was not originally created by me, I don't know who created it",Color3.new(0,0,0), true,Color3.new(0,0,0),1,0,true,Enum.TextXAlignment.Center,Enum.TextYAlignment.Center)
+--[[subtitle]] createlabel(Color3.new(1,1,1),1,Color3.new(0,0,0),0,"SubTitle",IntroFrame,UDim2.new(0.5,-150,0,70),0,UDim2.new(0,300,0,40),true,1,Enum.Font.SourceSansBold,Enum.FontSize.Size32,"Aimbot/ESP",Color3.new(27/255,42/255,53/255), false,Color3.new(0,0,0),1,0,true,Enum.TextXAlignment.Center,Enum.TextYAlignment.Center)
+--[[title]] createlabel(Color3.new(1,1,1),1,Color3.new(0,0,0),0,"Title",IntroFrame,UDim2.new(0.5,-105,0,20),0,UDim2.new(0,210,0,60),true,1,Enum.Font.SourceSansBold,Enum.FontSize.Size60,"FPS",Color3.new(27/255,42/255,53/255), false,Color3.new(0,0,0),1,0,true,Enum.TextXAlignment.Center,Enum.TextYAlignment.Center)
+
+IntroFrame:TweenPosition(UDim2.new(0,0,0,0),Enum.EasingDirection.Out,Enum.EasingStyle.Quart,0.5,true)
+wait(3.5)
+IntroFrame:TweenPosition(UDim2.new(0,-330,0,0),Enum.EasingDirection.In,Enum.EasingStyle.Quart,0.5,true)
+wait(0.5)
+Gui:Destroy()
+
+game:GetService("UserInputService").InputBegan:connect(onKeyPress)
+game:GetService("UserInputService").InputEnded:connect(onKeyRelease)
+
+while wait(1) do
+    CheckEsp()
+end

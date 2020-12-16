@@ -1,0 +1,73 @@
+C:\Users\Ali\source\repos\Cool\Cool\bin\Debug\Cool.exe.config
+C:\Users\Ali\source\repos\Cool\Cool\bin\Debug\Cool.exe
+C:\Users\Ali\source\repos\Cool\Cool\bin\Debug\Cool.pdb
+C:\Users\Ali\source\repos\Cool\Cool\bin\Debug\Guna.UI2.dll
+C:\Users\Ali\source\repos\Cool\Cool\obj\Debug\Cool.Form1.resources
+C:\Users\Ali\source\repos\Cool\Cool\obj\Debug\Cool.Properties.Resources.resources
+C:\Users\Ali\source\repos\Cool\Cool\obj\Debug\Cool.csproj.GenerateResource.cache
+C:\Users\Ali\source\repos\Cool\Cool\obj\Debug\Cool.csproj.CoreCompileInputs.cache
+C:\Users\Ali\source\repos\Cool\Cool\obj\Debug\Cool.csproj.CopyComplete
+C:\Users\Ali\source\repos\Cool\Cool\obj\Debug\Cool.exe
+C:\Users\Ali\source\repos\Cool\Cool\obj\Debug\Cool.pdb
+C:\Users\Ali\source\repos\Cool\Cool\obj\Debug\Cool.Executor.resources
+C:\Users\Ali\source\repos\Cool\Cool\bin\Debug\FastColoredTextBox.dll
+C:\Users\Ali\source\repos\Cool\Cool\obj\Debug\Cool.csprojAssemblyReference.cache
+C:\Users\Ali\source\repos\Cool\Cool\obj\Debug\Cool.Settings.resources
+C:\Users\simon\Desktop\Cool\Cool\bin\Debug\Cool.exe.config
+C:\Users\simon\Desktop\Cool\Cool\bin\Debug\Cool.exe
+C:\Users\simon\Desktop\Cool\Cool\bin\Debug\Cool.pdb
+C:\Users\simon\Desktop\Cool\Cool\bin\Debug\Guna.UI2.dll
+C:\Users\simon\Desktop\Cool\Cool\obj\Debug\Cool.Executor.resources
+C:\Users\simon\Desktop\Cool\Cool\obj\Debug\Cool.Form1.resources
+C:\Users\simon\Desktop\Cool\Cool\obj\Debug\Cool.Properties.Resources.resources
+C:\Users\simon\Desktop\Cool\Cool\obj\Debug\Cool.csproj.GenerateResource.cache
+C:\Users\simon\Desktop\Cool\Cool\obj\Debug\Cool.csproj.CoreCompileInputs.cache
+C:\Users\simon\Desktop\Cool\Cool\obj\Debug\Cool.csproj.CopyComplete
+C:\Users\simon\Desktop\Cool\Cool\obj\Debug\Cool.exe
+C:\Users\simon\Desktop\Cool\Cool\obj\Debug\Cool.pdb
+C:\Users\simon\Desktop\Cool\Cool\bin\Debug\EasyExploits.dll
+C:\Users\simon\Desktop\RobloxExploits\Cool\Cool\bin\Debug\Cool.exe.config
+C:\Users\simon\Desktop\RobloxExploits\Cool\Cool\bin\Debug\Cool.exe
+C:\Users\simon\Desktop\RobloxExploits\Cool\Cool\bin\Debug\Cool.pdb
+C:\Users\simon\Desktop\RobloxExploits\Cool\Cool\bin\Debug\Guna.UI2.dll
+C:\Users\simon\Desktop\RobloxExploits\Cool\Cool\obj\Debug\Cool.csprojAssemblyReference.cache
+C:\Users\simon\Desktop\RobloxExploits\Cool\Cool\obj\Debug\Cool.Executor.resources
+C:\Users\simon\Desktop\RobloxExploits\Cool\Cool\obj\Debug\Cool.Form1.resources
+C:\Users\simon\Desktop\RobloxExploits\Cool\Cool\obj\Debug\Cool.Properties.Resources.resources
+C:\Users\simon\Desktop\RobloxExploits\Cool\Cool\obj\Debug\Cool.csproj.GenerateResource.cache
+C:\Users\simon\Desktop\RobloxExploits\Cool\Cool\obj\Debug\Cool.csproj.CoreCompileInputs.cache
+C:\Users\simon\Desktop\RobloxExploits\Cool\Cool\obj\Debug\Cool.csproj.CopyComplete
+C:\Users\simon\Desktop\RobloxExploits\Cool\Cool\obj\Debug\Cool.exe
+C:\Users\simon\Desktop\RobloxExploits\Cool\Cool\obj\Debug\Cool.pdb
+C:\Users\Ali\Desktop\Cool\Cool\bin\Debug\Cool.exe.config
+C:\Users\Ali\Desktop\Cool\Cool\bin\Debug\Cool.exe
+C:\Users\Ali\Desktop\Cool\Cool\bin\Debug\Cool.pdb
+C:\Users\Ali\Desktop\Cool\Cool\bin\Debug\Guna.UI2.dll
+C:\Users\Ali\Desktop\Cool\Cool\obj\Debug\Cool.csprojAssemblyReference.cache
+C:\Users\Ali\Desktop\Cool\Cool\obj\Debug\Cool.Executor.resources
+C:\Users\Ali\Desktop\Cool\Cool\obj\Debug\Cool.Form1.resources
+C:\Users\Ali\Desktop\Cool\Cool\obj\Debug\Cool.Properties.Resources.resources
+C:\Users\Ali\Desktop\Cool\Cool\obj\Debug\Cool.Scripts.resources
+C:\Users\Ali\Desktop\Cool\Cool\obj\Debug\Cool.csproj.GenerateResource.cache
+C:\Users\Ali\Desktop\Cool\Cool\obj\Debug\Cool.csproj.CoreCompileInputs.cache
+C:\Users\Ali\Desktop\Cool\Cool\obj\Debug\Cool.csproj.CopyComplete
+C:\Users\Ali\Desktop\Cool\Cool\obj\Debug\Cool.exe
+C:\Users\Ali\Desktop\Cool\Cool\obj\Debug\Cool.pdb
+C:\Users\simon\Desktop\Cool\Cool\obj\Debug\Cool.Scripts.resources
+C:\Users\simon\Desktop\Cool\Cool\bin\Debug\FastColoredTextBox.dll
+C:\Users\simon\Desktop\Cool\Cool\obj\Debug\Cool.csprojAssemblyReference.cache
+C:\Users\simon\Documents\MEGAsync\coding bin\Repos\3nigma\Cool\Cool\bin\Debug\Cool.exe.config
+C:\Users\simon\Documents\MEGAsync\coding bin\Repos\3nigma\Cool\Cool\bin\Debug\Cool.exe
+C:\Users\simon\Documents\MEGAsync\coding bin\Repos\3nigma\Cool\Cool\bin\Debug\Cool.pdb
+C:\Users\simon\Documents\MEGAsync\coding bin\Repos\3nigma\Cool\Cool\bin\Debug\EasyExploits.dll
+C:\Users\simon\Documents\MEGAsync\coding bin\Repos\3nigma\Cool\Cool\bin\Debug\Guna.UI2.dll
+C:\Users\simon\Documents\MEGAsync\coding bin\Repos\3nigma\Cool\Cool\obj\Debug\Cool.csprojAssemblyReference.cache
+C:\Users\simon\Documents\MEGAsync\coding bin\Repos\3nigma\Cool\Cool\obj\Debug\Cool.Executor.resources
+C:\Users\simon\Documents\MEGAsync\coding bin\Repos\3nigma\Cool\Cool\obj\Debug\Cool.Form1.resources
+C:\Users\simon\Documents\MEGAsync\coding bin\Repos\3nigma\Cool\Cool\obj\Debug\Cool.Properties.Resources.resources
+C:\Users\simon\Documents\MEGAsync\coding bin\Repos\3nigma\Cool\Cool\obj\Debug\Cool.Scripts.resources
+C:\Users\simon\Documents\MEGAsync\coding bin\Repos\3nigma\Cool\Cool\obj\Debug\Cool.csproj.GenerateResource.cache
+C:\Users\simon\Documents\MEGAsync\coding bin\Repos\3nigma\Cool\Cool\obj\Debug\Cool.csproj.CoreCompileInputs.cache
+C:\Users\simon\Documents\MEGAsync\coding bin\Repos\3nigma\Cool\Cool\obj\Debug\Cool.csproj.CopyComplete
+C:\Users\simon\Documents\MEGAsync\coding bin\Repos\3nigma\Cool\Cool\obj\Debug\Cool.exe
+C:\Users\simon\Documents\MEGAsync\coding bin\Repos\3nigma\Cool\Cool\obj\Debug\Cool.pdb

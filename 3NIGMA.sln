@@ -1,0 +1,30 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30503.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3NIGMA", "Cool\3NIGMA.csproj", "{1F449C6F-9E9B-41F1-873D-9DDA1E1F34D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AttacherV3", "AttacherV3\AttacherV3.csproj", "{19B7FB33-4BBE-4F6D-8596-35D3156B4502}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1F449C6F-9E9B-41F1-873D-9DDA1E1F34D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F449C6F-9E9B-41F1-873D-9DDA1E1F34D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F449C6F-9E9B-41F1-873D-9DDA1E1F34D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F449C6F-9E9B-41F1-873D-9DDA1E1F34D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19B7FB33-4BBE-4F6D-8596-35D3156B4502}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19B7FB33-4BBE-4F6D-8596-35D3156B4502}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19B7FB33-4BBE-4F6D-8596-35D3156B4502}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19B7FB33-4BBE-4F6D-8596-35D3156B4502}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1DC3E2DB-2E39-4117-9304-A44F90B8D153}
+	EndGlobalSection
+EndGlobal
